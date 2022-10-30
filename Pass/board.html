@@ -2,8 +2,8 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pass</title>
-    <link rel="stylesheet" href="home.css">
+    <title>Pass/board</title>
+    <link rel="stylesheet" href="board.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;600;700&display=swap" rel="stylesheet">
@@ -11,9 +11,9 @@
 </head>
 
 <body>
-<section class="header">
+<section class="sub-header-big">
     <nav>
-        <a href="home.html"><img src="images/logo.png"></a>
+        <a href="index.html"><img src="images/logo.png"></a>
         <div class="nav-links" id="navLinks">
             <i class="fa fa-times" onclick="hideMenu()"></i>
             <ul>
@@ -26,12 +26,18 @@
         </div>
         <i class="fa fa-bars" onclick="showMenu()"></i> 
     </nav>
-<div class="text-box">
-    <h1>The Largest Network In The Nonprofit World</h1>
-    <p>Pass transforms volunteer oppertunities, making it quick, easy and effective.</p>
-    <a href="signup.html" class="hero-btn">Sign Up</a>
-    <a href="login.html" class="hero-btn">Log In</a>
-</div>
+    <!-- <div class="search-col">
+        <input type="text" name="search" placeholder="Search for Volunteer" required>
+    </div> -->
+    <div class="publish">
+        <a href=""><button class="hero-btn-2">Publish Event</button></a>
+        <p>Your regestered volunteer events will be quickly reviewed</p>
+    </div>
+</section>
+
+<section class="events">
+    <h1>Volunteering Events That Can Be Applied For</h1>
+    <p>Total: </p>
 </section>
 
 <!-------JavaScript for Toggle Menu-------->
@@ -46,5 +52,4 @@
 </script>
 
 </body>
-
 </html>
