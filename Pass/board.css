@@ -48,38 +48,6 @@ nav img{
 .nav-links ul li:hover::after{
     width: 100%;
 }
-.text-box{
-    width: 80%;
-    color: #fff;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-.text-box h1{
-    font-size: 40px;
-}
-.text-box p{
-    margin: 10px 0 40px;
-    font-size: 16px;
-    color: #fff;
-}
-.hero-btn{
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
-    padding: 12px 34px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
-}
-.hero-btn:hover{
-    border: 1px solid #36bbf4;
-    background: #36bbf4;
-    transition: 0.7s;
-}
 nav .fa{
     display: none;
 }
@@ -115,3 +83,76 @@ nav .fa{
         padding: 30px;
     }
 }
+.sub-header-big{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/sub_banner.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+/* .search-col input{
+    margin: 15% 0;
+    width: 60%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    background: transparent;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+    font-size:18px;
+    color: #fff;
+} */
+.publish{
+    width: 80%;
+    color: #fff;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.publish p{
+    margin: 8%;
+    font-size: 18px;
+}
+.hero-btn-2{
+    /* margin: 15% 0; */
+    position: absolute;
+    left: 40%;
+    outline: none;
+    width: 20%;
+    height: 50px;
+    background: transparent;
+    color: #36bbf4;
+    font-size: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+
+}
+.hero-btn-2:hover{
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    background: #36bbf4;
+}
+.events{
+    color: #555;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    text-align: left;
+    font-size: 20px;
+}
+
+/* .events h1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    text-align: left;
+    font-size: 20px;
+} */
